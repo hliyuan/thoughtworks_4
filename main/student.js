@@ -1,6 +1,6 @@
 let Person = require('./person')
 // Write your code here
-module.exports = Student(name,age,kclass){
+module.exports =function Student(name,age,kclass){
 	Person.call(this,name,age);
 	this.kclass = kclass;
 	this.introduce=function(){
